@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 120px;
+    background-color: antiquewhite;
+    display: grid;
+
+}
+header img{
+    width: 180px;
+    position: absolute;
+}
+header input{
+    width: 75vw;
+    height: 29px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.6rem;
+
+}
+header .ipt{
+    background-color: rgb(255, 255, 255);
+    width: 78vw;
+    height: 33px;
+    text-align: right;
+    place-items: center;
+    position: relative;
+    left: 12vw;
+    top: 5vh;
+    margin: 0;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 1vh;
+    left: -3px;
+    cursor: pointer;
+}
+main {
+    text-align: left;
+}
+main #poke{
+    width: 30vw;
+    margin: 30px;
+}
