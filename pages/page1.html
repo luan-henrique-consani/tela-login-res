@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,48 +11,47 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="./../style/page1.css">
-    <title>Tela 1</title>
+    <link rel="stylesheet" href="./../style/header.css">
+    <link rel="stylesheet" href="./../style/page1.css">
+    <title>Page pokemon</title>
 </head>
 <body>
     <header>
-        <img src="./../assets/pokelogo.png" alt="pokelogo">
-        <div class="ipt">
-            <input type="text" placeholder="Pesquisar...">
-            <span class="material-symbols-outlined">
-                search
-                </span>
+        <div class="conteiner">
+            <img src="./../assets/pokelogo.png" alt="poke logo">
+            <div class="inputs">
+                <input type="text" placeholder="Pesquisar..."  class="search-input">
+                <span class="material-symbols-outlined search-button">
+                    search
+                    </span>
+            </div>
         </div>
     </header>
     <main>
-        <div class="oqp">
-
-            <img src="./../assets/ash.jpg" alt="ash ganhando" id="poke">
-            <div class="text1">
-                <h1>O que é Pokemon?</h1>
-                <p>
-                    Pokémon é uma série de jogos eletrônicos desenvolvidos pela Game Freak e publicados pela Nintendo como parte da franquia de mídia Pokémon. 
-                    Lançado pela primeira vez em 1996 no Japão para o console Game Boy, a principal série de jogos de RPGs, 
-                    que continuou em cada geração em portáteis da Nintendo
-                </p>
-            </div>
-        </div>
-        <div class="ash">
-            <h2>Ash Ketchum</h2>
-            <img src="./../assets/ash-frente.webp" alt="ash Ketchum">
-            <p>
-                Ash Ketchum é um personagem fictício do anime e mangá da franquia Pokémon, propriedade da Nintendo. 
-                Criado por Satoshi Tajiri, Ash é o protagonista das séries de anime da franquia, 
-                e aparece em outros produtos relacionados com a mesma.
-            </p>
+        <h1>Pokémon</h1>
+        <div class="imgetxt1">
             
+            <img src="./../assets/ash.jpg" alt="ash ganhando">
+            <h2>O que é pokémon</h2>
+            <p>Pokémon é uma série de jogos eletrônicos desenvolvidos pela Game Freak e publicados pela Nintendo como parte da franquia de mídia Pokémon. 
+                Lançado pela primeira vez em 1996 no Japão para o console Game Boy, a principal série de jogos de RPGs, que continuou em cada geração em portáteis da Nintendo.</p>
         </div>
-        <button>
-            VOLTAR PARA CIMA
+        <div class="imgetxt2">
+            <img src="./../assets/ash-frente.webp" alt="Ash Ketchum">
+            <h2>Ash Ketchum</h2>
+            <p>Ash Ketchum é um personagem fictício do anime e mangá da franquia Pokémon, propriedade da Nintendo.
+                 Criado por Satoshi Tajiri, Ash é o protagonista das séries de anime da franquia, e aparece em outros produtos relacionados com a mesma.</p>
+        </div>
+
+        <section class="pokemon"></section>
+        <span class="error">não achei</span>
+        <button>voltar para cima 
             <span class="material-symbols-outlined">
                 north
-            </span>
+                </span>
         </button>
     </main>
+    <script src="./../js/poketeste.js"></script>
+
 </body>
 </html>
