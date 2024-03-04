@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    background-color: rgb(235, 234, 177);
+    width: 100vw;
+    height: 11vh;
+}
+header .conteiner{
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+}
+header .conteiner img{
+    width: 150px;
+    height: 110px;
+}
+header .conteiner .inputs{
+    width: 80vw;
+    height: 3vh;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 35px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+header .conteiner .inputs input{
+    width: 84vw;
+    height: 2vh;
+    margin-top: 4px;
+    margin-left: 6px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+header .conteiner .inputs .material-symbols-outlined{
+    margin-top:4px;
+    font-size: 22px;
+    cursor: pointer;
+}
